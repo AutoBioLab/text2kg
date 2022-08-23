@@ -3,6 +3,7 @@ import subprocess
 import glob
 import pandas as pd
 
+manipulate_list=["add","agitate","aliquot","aspirate","bake","batch","calibrate","catalysis","catalyst","centrifuge","chop","mince","chromatograph","clump","coat","collect","combine","combustion","concentrate","condense","crush","decant","dehydrate","digest","dilute","discard","dissolution","dissolve","distill","down","droplet","electrophoresis","electrotransformation","elute","equilibrate","evaporate","extract","fermentation","filtrate","filtration","flow","foster","grind","harvest","homogenize","hydrolysis","incubate","inoculate","lysate","measure","mix","neutralize","normalize","passage","pellet","perfusion","pipette","plate","precipitate","probe","purify","quench","remove","replace","resuspend","rinse","screen","sediment","shake","slurry","spin","sterilize","suction","supernatant","thaw","transfer","transform","turbid","ultrasonication","ventilate","viscous","vortex"]
 def Stanford_Relation_Extractor():
 
     
@@ -22,4 +23,5 @@ def Stanford_Relation_Extractor():
 
 
 if __name__ == '__main__':
+
     Stanford_Relation_Extractor()
